@@ -51,8 +51,6 @@ function CurrencyConvertor(){
         }
     }
 
-    console.log(currencies)
-
     useEffect(()=>{
         FetchCurrencyData()
     },[])
